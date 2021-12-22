@@ -477,3 +477,57 @@ body {
     transform: rotateZ(0deg);
   }
 }
+
+
+@keyframes rock {
+  0% {
+    transform: rotate(-1deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes rock2 {
+  0% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
+}
+
+
+.message {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  color: #f8e7dc;
+  font-family: 'Mountains of Christmas';
+}
+.message h1 {
+    text-align: center;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 0;
+    white-space: nowrap; 
+    animation: rock;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.message h2 {
+    font-style: normal;
+    font-size: 32px;
+    margin-bottom: 0;
+    white-space: nowrap; 
+    animation: rock2;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    
+}
