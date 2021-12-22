@@ -43,7 +43,7 @@ svg {
 .reindeer {
   transform: scale(1) rotateZ(-2deg);
   position: absolute;
-  top: 1000px;
+  top: 1200px;
   right: 0;
   bottom: 0;
   left: 500px;
