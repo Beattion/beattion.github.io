@@ -513,7 +513,7 @@ body {
 .message h1 {
     text-align: center;
     font-style: normal;
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 0;
     white-space: nowrap; 
     animation: rock;
@@ -523,7 +523,7 @@ body {
 
 .message h2 {
     font-style: normal;
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 0;
     white-space: nowrap; 
     animation: rock2;
