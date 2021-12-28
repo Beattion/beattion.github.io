@@ -153,7 +153,7 @@ const underline = new mojs.Shape({
   strokeDashoffset: { '200%': '100%' },
   radius: 150,
   radiusY: 10,
-  y: '1.1em',
+  y: '1.3em',
   angle: -10,
   duration: 2000,
   delay: 1000 }).
