@@ -147,7 +147,7 @@ const underline = new mojs.Shape({
   strokeLinecap: 'round',
   fill: 'none',
   isShowStart: false,
-  strokeWidth: { '1em': '5em' },
+  strokeWidth: { '1em': '3em' },
   stroke: '#ffffff',
   strokeDasharray: '200%',
   strokeDashoffset: { '200%': '100%' },
@@ -158,7 +158,7 @@ const underline = new mojs.Shape({
   duration: 2000,
   delay: 1000 }).
 then({
-  strokeWidth: { '5em': '1em' },
+  strokeWidth: { '3em': '1em' },
   strokeDashoffset: { '100%': '-200%' },
   duration: 2000,
   delay: 10000 });
