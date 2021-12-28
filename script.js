@@ -151,7 +151,7 @@ const underline = new mojs.Shape({
   stroke: '#ffffff',
   strokeDasharray: '200%',
   strokeDashoffset: { '200%': '100%' },
-  radius: 150,
+  radius: 100,
   radiusY: 10,
   y: '1.3em',
   angle: -10,
